@@ -8,5 +8,6 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version: 'stable'
+      - run: go mod init
       - run: go test
       - run: math.go
