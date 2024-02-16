@@ -9,4 +9,4 @@ jobs:
         with:
           go-version: 'stable'
       - run: go test
-      - run: math.go
+      - run: go run math.go
